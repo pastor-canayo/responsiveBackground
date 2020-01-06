@@ -1,7 +1,47 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+#container > div{
+  height: 14vh;
+}
 #container{
   display: flex;
   justify-content: center;
   align-items: center;
-  background: url('images/darkn.jpg')no-repeat center/cover fixed;
+  background-image: url('images/darkn.jpg');
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
   height: 100vh;
+}
+
+.container-text{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+.container-center{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+h1{
+  font-size: 3rem;
+}
+h2{
+  font-size: 1.4rem;
+  font-weight: 700;
+}
+h3{
+  font-size: 1.4rem;
+  font-weight: 700;
+}
+
+@media screen and (min-width: 800px){
+  
 }
